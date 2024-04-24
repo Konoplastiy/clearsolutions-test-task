@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="local_environment" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Enviroments">
+    <envs>
+      <env name="H2_NAME" value="SA" />
+      <env name="H2_PASS" value="" />
+    </envs>
+    <module name="clearsolutions" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.konoplastiy.clearsolutions.ClearsolutionsApplication" />
+    <option name="VM_PARAMETERS" value="-Dspring.profiles.active=local" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

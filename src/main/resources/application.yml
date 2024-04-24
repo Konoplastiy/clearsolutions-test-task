@@ -1,0 +1,25 @@
+#Server settings
+server:
+  port: 8081
+
+###
+# Spring settings
+###
+spring:
+  application:
+    name: clearsolutions
+  #Jpa settings
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    defer-datasource-initialization: false
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+  #H2 enabled console
+  h2:
+    console:
+      enabled: true
+
+
+user.min.age: 18

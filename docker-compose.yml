@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  backapp:
+    image: kanap/clearsolutions
+    container_name: clearsolutions
+    environment:
+      SPRING_PROFILES_ACTIVE: local
+    ports:
+      - 8081:8081
+    networks:
+      - backend
+
+
+networks:
+  backend:
+    driver: "bridge"

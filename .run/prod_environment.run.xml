@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="prod_environment" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Enviroments">
+    <envs>
+      <env name="POSTGRES_NAME" value="postgres" />
+      <env name="POSTGRES_PASS" value="root" />
+    </envs>
+    <module name="clearsolutions" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.konoplastiy.clearsolutions.ClearsolutionsApplication" />
+    <option name="VM_PARAMETERS" value="-Dspring.profiles.active=prod" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
