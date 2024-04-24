@@ -18,7 +18,7 @@
 2. Generate the Docker image:
 
     ```bash
-    ./mvn mvn compile jib:dockerBuild
+    ./mvnw compile jib:dockerBuild
     ```
 3. Start the Application:
     ```bash
@@ -55,9 +55,6 @@
 
 ---
 ## Profiles
-```bash
-./mvnw clean install 
-```
 >[Spring Profiles](https://www.baeldung.com/spring-profiles)
 *-Spring Profiles provide a way to segregate parts of your application configuration and make it only available in certain environments.*
 ---
